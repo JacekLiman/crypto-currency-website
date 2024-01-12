@@ -7,7 +7,7 @@ type NavMobileProps = {
 
 const NavMobile = ({setNavMobile}:NavMobileProps) => {
   return (
-    <nav className="lg:hidden bg-violet h-full w-80 flex justify-center items-center">
+    <nav className=" bg-violet h-full w-80 flex justify-center items-center">
       <div onClick={()=>setNavMobile(false)} className="absolute top-2 left-2 cursor-pointer">
         <CgClose className="text-3xl" />
       </div>
