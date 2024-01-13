@@ -19,7 +19,7 @@ const Header = ({setNavMobile}:NavMobileProps) => {
         <a href="">
           <img src={Logo} alt="" />
         </a>
-        <div className="hidden lg:flex gap-x-[55px]">
+        <div className="hidden lg:flex items-center gap-x-[55px]">
           <Nav />
           <AccountBtns />
         </div>
