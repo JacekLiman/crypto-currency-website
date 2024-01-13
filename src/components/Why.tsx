@@ -6,14 +6,14 @@ const Why = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center gap-8 lg:flex-row">
           <div
-            data-aos-offset="400"
+            data-aos-offset="200"
             data-aos="fade-left"
             className="lg:order-2"
           >
             <img src={Image} alt="" />
           </div>
           <div
-            
+            data-aos-offset="200"
             data-aos="fade-right"
             className="max-w-[480px]"
           >
