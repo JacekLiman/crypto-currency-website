@@ -5,8 +5,7 @@ const Calculate = () => {
     <section className="section">
       <div className="container mx-auto">
         <div className="text-center">
-          <h2
-            
+          <h2          
             data-aos="fade-up"
             className="section-title"
           >

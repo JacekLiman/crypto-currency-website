@@ -1,13 +1,14 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
 
 import Hero from "./components/Hero";
-import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
 import Stats from "./components/Stats";
 import Why from "./components/Why";
 import Calculate from "./components/Calculate";
+import Trade from "./components/Trade";
 
 function App() {
   const [navMobile, setNavMobile] = useState(true);
@@ -31,6 +32,7 @@ function App() {
       <Stats />
       <Why/>
       <Calculate/>
+      <Trade/>
     </div>
   );
 }
