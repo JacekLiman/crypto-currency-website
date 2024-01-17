@@ -32,7 +32,7 @@ const Hero = () => {
               className="max-w-[440px] leading-relaxed mb-8"
             >
               Buy and sell cryptocurriences, trusted by 10M wallets with over
-              $30 billin in transactions.
+              $30 billions in transactions.
             </p>
             <button
               data-aos="fade-down"
